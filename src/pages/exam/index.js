@@ -1,8 +1,9 @@
 import React from 'react'
 import { Row, Col} from 'react-bootstrap';
-import { Chart } from './styles';
+import { Chart, Right } from './styles';
 
 import ChartSection from './ChartSection';
+import RightSection from './RightSection';
 
 const Exam = () => {
     return (
@@ -10,9 +11,9 @@ const Exam = () => {
                 <Chart lg={3} md={4} sm={12} xs={12}>
                    <ChartSection />
                 </Chart>
-                <Col>
-                    DEF
-                </Col>
+                <Right>
+                    <RightSection />
+                </Right>
             </Row>
     )
 }
