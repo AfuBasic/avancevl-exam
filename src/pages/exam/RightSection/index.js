@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col} from 'react-bootstrap';
 import SelectDropDown from '../../../components/SelectDropDown';
+import ProblemSection from "./ProblemSection";
 
 const RightSection = () => {
 
@@ -29,8 +30,13 @@ const RightSection = () => {
 
     return (
        <Row>
-           <Col>
-                <SelectDropDown options={options}/>
+           <Col lg={12} sm={12} xs={12} md={12} >
+                &nbsp;
+           </Col>
+           <Col lg={12} sm={12} xs={12} md={12} >
+            <Row>
+                <ProblemSection />
+            </Row>
            </Col>
        </Row>
     )
